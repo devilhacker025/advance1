@@ -11,18 +11,42 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
+    const letterText = `Arushi!
+Aaj tera din hai... aur bhai kya din hai! 🎂🌟
+Tera birthday matlab ek dhamaka, ek celebration, ek full power energy day! 💃🕺
 
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
+Tu sirf meri dost nahi hai, tu ek full package hai –
+daantne wali teacher,
+samjhane wali therapist,
+hansane wali comedian,
+aur gussa karne wali villain bhi 😜
+… lekin sabse important – meri asli wali dost ❤️
 
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
+Tere saath ki har baat yaadgar hoti hai –
+Chahe woh random nok-jhok ho ya ekdum deep baatein raat ke 2 baje.
+Tu bina bole samajh jaati hai, aur zarurat padti hai toh chappal leke samjha bhi deti hai! 😆
+Aur woh bhi pyaar se (thoda sa gussa mix karke obviously 😅)
 
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
+Tera support matlab – confidence boost ka Red Bull! 💪
+Tu nahi hoti toh kai baar main literally ghoom gaya hota life mein.
 
-Happy Birthday, beautiful soul! 🎂✨
+Aur tu jaise hi hass ke bolti hai,
+“Chal chhod na yaar,”
+Toh lagta hai sab theek ho jaayega.
+Bas woh moment priceless hota hai!
 
-With all my love and warmest wishes,
-Forever Yours 💕`
+🛑 Aaj ke din koi tension nahi,
+🟢 Sirf celebration, vibes, dosti, aur teri smile chahiye!
+Khaana, cake, memes, dosti – sab unlimited hona chahiye aaj!
+
+Toh officially:
+
+🎂 Happy Birthday Arushi! 🎂
+✨ Khush reh, mast reh, aur duniya ko dikhade tu kitni epic hai!
+Aur haan – dosti humesha special thi… aur rahegi…
+Chahe kitni bhi nok-jhok ho,
+Kitna bhi gussa ho,
+Tu apni hai. 💖`
 
     useEffect(() => {
         if (showText) {
